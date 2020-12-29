@@ -15,17 +15,17 @@ def calculateList():
     L = list(map(int, input().split(" ")))
     print(L)
     
-    Globals.list_sum = sum(L)
-    Globals.list_avg = statistics.mean(L)
-    Globals.list_med = statistics.median(L)
-    Globals.list_min = min(L)
-    Globals.list_max = max(L)
+    Globals.angka_sum = sum(L)
+    Globals.angka_avg = statistics.mean(L)
+    Globals.angka_med = statistics.median(L)
+    Globals.angka_min = min(L)
+    Globals.angka_max = max(L)
 
-    print(Globals.list_sum)
-    print(Globals.list_avg)
-    print(Globals.list_med)
-    print(Globals.list_min)
-    print(Globals.list_max)
+    print(Globals.angka_sum)
+    print(Globals.angka_avg)
+    print(Globals.angka_med)
+    print(Globals.angka_min)
+    print(Globals.angka_max)
 
 def winningChance():
     list_tahun = list(map(int, input().split(" ")))

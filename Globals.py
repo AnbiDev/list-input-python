@@ -1,10 +1,13 @@
+# untuk case 1
 list_output = []
 
-list_sum = 0
-list_avg = 0
-list_med = 0
-list_min = 0
-list_max = 0
+# untuk case 2
+angka_sum = 0
+angka_avg = 0
+angka_med = 0
+angka_min = 0
+angka_max = 0
 
+# untuk case 3
 winning_count = 0
 
